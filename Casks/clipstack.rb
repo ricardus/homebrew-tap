@@ -1,6 +1,6 @@
 cask "clipstack" do
-  version "1.0.0"
-  sha256 "1febb111411d603883f975e0554045c3fbbcfd7d1bc8c47a0bd121c85a1b2cf0"
+  version "1.1.0"
+  sha256 "945ec4b5d8de618ecc5daa73571fca6ba808231496d471a017a08c0a11eb7ae3"
 
   url "https://github.com/ricardus/clipstack/releases/download/v#{version}/Clipstack-v#{version}.zip"
   name "Clipstack"
@@ -8,7 +8,6 @@ cask "clipstack" do
   homepage "https://ricardus.github.io/clipstack/"
 
   depends_on macos: ">= :sonoma"
-  depends_on arch: :arm64
 
   app "Clipstack.app"
 
